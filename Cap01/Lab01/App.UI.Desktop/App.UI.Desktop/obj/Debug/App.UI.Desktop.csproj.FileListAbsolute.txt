@@ -1,0 +1,12 @@
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe.config
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.pdb
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csprojResolveAssemblyReference.cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Properties.Resources.resources
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.GenerateResource.Cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.exe
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.pdb
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Form1.resources
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.dll
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.pdb
