@@ -1,0 +1,8 @@
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\bin\Debug\Chinook.Data.dll
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\bin\Debug\Chinook.Data.pdb
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\obj\Debug\Chinook.Data.csprojResolveAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\obj\Debug\Chinook.Data.dll
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\obj\Debug\Chinook.Data.pdb
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\bin\Debug\Chinook.Entities.dll
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data\bin\Debug\Chinook.Entities.pdb
