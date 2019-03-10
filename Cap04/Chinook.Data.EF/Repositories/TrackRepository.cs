@@ -8,30 +8,33 @@ using System.Threading.Tasks;
 
 namespace Chinook.Data.EF.Repositories
 {
-    public class ArtistRepository
+    public class TrackRepository
     {
         private readonly AppDataModel _context;
 
-        public ArtistRepository()
+        public TrackRepository()
         {
             _context = new AppDataModel();
         }
 
         public int Count()
         {
-            return _context.Artist.Count();
+            return _context.Track.Count();
         }
 
-        public Artist Get(int id)
+        public Track Get(int id)
         {
-            return _context.Artist.Find(id);
+            return _context.Track.Find(id);
         }
 
 
-        public IEnumerable<Artist> GetAll(string nombre)
+        public IEnumerable<Track> GetAll(string nombre)
         {
 
-            IQueryable<Artist> query = _context.Artist;
+            IQueryable<Track> query = _context.Track;
+
+            //Includes (EDGER LOADING)
+            query = query.Include(item => item.Album);
 
             if (!string.IsNullOrWhiteSpace(nombre))
             {
@@ -44,21 +47,21 @@ namespace Chinook.Data.EF.Repositories
             return query.ToList();
         }
 
-        public int Insert(Artist entity)
+        public int Insert(Track entity)
         {
             //Se agrega la información al contexto de EF
-            _context.Artist.Add(entity);
+            _context.Track.Add(entity);
             //Confiema la trasacción
             _context.SaveChanges();
 
-            return entity.ArtistId;
+            return entity.TrackId;
         }
 
-        public bool Update(Artist entity)
+        public bool Update(Track entity)
         {
             //Atachando en memoría el objeto que
             //se quiere atualizar
-            _context.Artist.Attach(entity);
+            _context.Track.Attach(entity);
             //Cambiando el estado de
             //Unchanged a Modified
             _context.Entry(entity).State = 
@@ -71,15 +74,15 @@ namespace Chinook.Data.EF.Repositories
 
         }
 
-        public bool Delete(Artist entity)
+        public bool Delete(Track entity)
         {
             //Atachando en memoría el objeto que
             //se quiere atualizar
-            _context.Artist.Attach(entity);
+            _context.Track.Attach(entity);
 
             //Cambiando el estado de
             //Unchanged a Deleted
-            _context.Artist.Remove(entity);
+            _context.Track.Remove(entity);
             //Confirmando la operación
             var result = _context.SaveChanges();
 

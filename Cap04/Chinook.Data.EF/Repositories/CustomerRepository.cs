@@ -8,57 +8,49 @@ using System.Threading.Tasks;
 
 namespace Chinook.Data.EF.Repositories
 {
-    public class ArtistRepository
+    public class CustomerRepository
     {
         private readonly AppDataModel _context;
 
-        public ArtistRepository()
+        public CustomerRepository()
         {
             _context = new AppDataModel();
         }
 
         public int Count()
         {
-            return _context.Artist.Count();
+            return _context.Customer.Count();
         }
 
-        public Artist Get(int id)
+        public Customer Get(int id)
         {
-            return _context.Artist.Find(id);
+            return _context.Customer.Find(id);
         }
 
 
-        public IEnumerable<Artist> GetAll(string nombre)
+        public IEnumerable<Customer> GetAll(string fullName)
         {
-
-            IQueryable<Artist> query = _context.Artist;
-
-            if (!string.IsNullOrWhiteSpace(nombre))
-            {
-                query = query.Where(a => a.Name.Contains(nombre));
-            }
-
-            //ordernamiento
-            query = query.OrderBy(o => o.Name);
-
-            return query.ToList();
+            return _context.Customer
+                    .Where(a=>string.Concat(a.FirstName," ",a.LastName).Contains(fullName))
+                    .OrderBy(o=>o.LastName).ThenByDescending(o=>o.FirstName)
+                    .ToList();
         }
 
-        public int Insert(Artist entity)
+        public int Insert(Customer entity)
         {
             //Se agrega la información al contexto de EF
-            _context.Artist.Add(entity);
+            _context.Customer.Add(entity);
             //Confiema la trasacción
             _context.SaveChanges();
 
-            return entity.ArtistId;
+            return entity.CustomerId;
         }
 
-        public bool Update(Artist entity)
+        public bool Update(Customer entity)
         {
             //Atachando en memoría el objeto que
             //se quiere atualizar
-            _context.Artist.Attach(entity);
+            _context.Customer.Attach(entity);
             //Cambiando el estado de
             //Unchanged a Modified
             _context.Entry(entity).State = 
@@ -71,15 +63,15 @@ namespace Chinook.Data.EF.Repositories
 
         }
 
-        public bool Delete(Artist entity)
+        public bool Delete(Customer entity)
         {
             //Atachando en memoría el objeto que
             //se quiere atualizar
-            _context.Artist.Attach(entity);
+            _context.Customer.Attach(entity);
 
             //Cambiando el estado de
             //Unchanged a Deleted
-            _context.Artist.Remove(entity);
+            _context.Customer.Remove(entity);
             //Confirmando la operación
             var result = _context.SaveChanges();
 
