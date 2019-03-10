@@ -47,7 +47,8 @@ E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\bin\es\System.Web.Razor.resources.dll
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\bin\es\System.Web.WebPages.resources.dll
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
-E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csprojResolveAssemblyReference.cache
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csproj.CoreCompileInputs.cache
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.dll
 E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.pdb
+E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap02\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csproj.CopyComplete

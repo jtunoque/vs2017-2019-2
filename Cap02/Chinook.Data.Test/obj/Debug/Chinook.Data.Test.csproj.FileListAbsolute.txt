@@ -14,7 +14,8 @@ E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\bin\Debug\Chinook.Data.pdb
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\bin\Debug\Chinook.Entities.pdb
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojResolveAssemblyReference.cache
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CoreCompileInputs.cache
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
 E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap02\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
