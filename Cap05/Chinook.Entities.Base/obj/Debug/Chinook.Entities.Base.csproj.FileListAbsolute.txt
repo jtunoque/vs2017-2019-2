@@ -1,0 +1,12 @@
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\bin\Debug\Chinook.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\bin\Debug\Chinook.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap04\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\bin\Debug\Chinook.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\bin\Debug\Chinook.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap05\Chinook.Entities.Base\obj\Debug\Chinook.Entities.Base.pdb

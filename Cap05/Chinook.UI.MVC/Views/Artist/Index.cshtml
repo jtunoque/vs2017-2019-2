@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Chinook.Entities.Artist>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Artistas</h2>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+    </tr>
+   @foreach(var item in Model)
+   {
+    <tr>
+        <td>@item.ArtistId</td>
+        <td>@item.Name</td>
+    </tr>
+   }
+
+</table>
+

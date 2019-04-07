@@ -1,0 +1,12 @@
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap06\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap07\snlApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
