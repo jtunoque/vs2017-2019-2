@@ -12,6 +12,7 @@ E:\VS2017_JTG\Labs\Cap06\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAcces
 E:\VS2017_JTG\Labs\Cap06\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.csproj.CopyComplete
 E:\VS2017_JTG\Labs\Cap06\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.dll
 E:\VS2017_JTG\Labs\Cap06\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.pdb
+<<<<<<< HEAD
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\bin\Debug\App.Data.DataAccess.dll.config
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\bin\Debug\App.Data.DataAccess.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\bin\Debug\App.Data.DataAccess.pdb
@@ -26,3 +27,5 @@ E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAcces
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.csproj.CopyComplete
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.pdb
+=======
+>>>>>>> 649f73f661e41431d5a0ac1513b7ed345cf432b6

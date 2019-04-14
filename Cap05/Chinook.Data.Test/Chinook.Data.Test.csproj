@@ -53,7 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="App.config" />
+=======
+>>>>>>> 649f73f661e41431d5a0ac1513b7ed345cf432b6
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

@@ -11,6 +11,7 @@ namespace App.Data.DataAccess
         public DBDataModel()
             : base("name=cnxDBDataModel")
         {
+<<<<<<< HEAD
 
             Database.SetInitializer<DBDataModel>(null);
 
@@ -23,6 +24,8 @@ namespace App.Data.DataAccess
 
             this.Configuration.ValidateOnSaveEnabled = false;
 
+=======
+>>>>>>> 649f73f661e41431d5a0ac1513b7ed345cf432b6
         }
 
         public virtual DbSet<Album> Album { get; set; }

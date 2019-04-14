@@ -1,0 +1,9 @@
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Services.WCFLib.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Services.WCFLib.Interfaces.pdb
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csproj.CopyComplete
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap09\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.pdb

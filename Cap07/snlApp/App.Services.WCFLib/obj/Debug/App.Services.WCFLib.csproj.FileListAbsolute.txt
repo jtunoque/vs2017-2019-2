@@ -5,6 +5,7 @@ E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLi
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.csproj.CoreCompileInputs.cache
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.pdb
+<<<<<<< HEAD
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Domain.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Domain.Interfaces.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Entities.Base.dll
@@ -24,3 +25,5 @@ E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\EntityFramework.xm
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Data.DataAccess.pdb
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Data.DataAccess.dll.config
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.csproj.CopyComplete
+=======
+>>>>>>> 649f73f661e41431d5a0ac1513b7ed345cf432b6
