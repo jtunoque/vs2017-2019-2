@@ -1,0 +1,7 @@
+﻿/*Sobreescribiendo ellipse estilo de bootsrap*/
+
+.form-control
+{
+    background-color:red;
+    color:white;
+}
