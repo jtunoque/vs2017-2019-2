@@ -1,0 +1,21 @@
+﻿@model IEnumerable<App.Entities.Base.Artist>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ArtistId</td>
+                <td>@item.Name</td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+</table>

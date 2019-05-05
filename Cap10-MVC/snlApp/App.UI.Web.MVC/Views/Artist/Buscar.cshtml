@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Gestionar Información del Artista";
+}
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        @using (Ajax.BeginForm("ObtenerArtistas",
+            new AjaxOptions
+            {
+                HttpMethod="POST",
+                UpdateTargetId="resultadoId",
+                InsertionMode=InsertionMode.Replace,
+                LoadingElementId="imgLoader"
+            }        
+        ))
+        {
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="artistaNombre">Artista:</label>
+                <input type="text" class="form-control"
+                       id="artistaNombre"
+                       name="artistaNombre"
+                       placeholder="Buscar por nombre de artista"
+                       value="@ViewBag.artistaFiltrado">
+            </div>
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </div>
+
+        }
+        <br />
+        <div id="resultadoId">
+
+        </div>
+    </div>
+</div>
+
