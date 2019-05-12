@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Gestionar Informacion de Tracks";
+}
+
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        @using (Ajax.BeginForm("ObtenerTrack",
+            new AjaxOptions
+            {
+                HttpMethod = "POST",
+                UpdateTargetId = "resultadoId",
+                InsertionMode = InsertionMode.Replace,
+                LoadingElementId = "imgLoader"
+            }
+
+            ))
+        {
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="trackName">Nombre Track:</label>
+                <input type="text" class="form-control"
+                       id="trackName"
+                       name="trackName"
+                       placeholder="Buscar por Track"
+                       autocomplete="off">
+
+            </div>
+
+            <div class="form-group">
+                <label for="genero">Genero:</label>
+                <input type="text" class="form-control"
+                       id="genero"
+                       name="genero"
+                       placeholder="Buscar por genero"
+                       autocomplete="off">
+
+            </div>
+
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </div>
+        }
+
+
+        <br />
+        <div id="resultadoId">
+
+        </div>
+
+
+    </div>
+</div>
+

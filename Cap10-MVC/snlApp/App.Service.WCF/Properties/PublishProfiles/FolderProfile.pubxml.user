@@ -10,67 +10,73 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/App.Data.DataAccess.dll">
-      <publishTime>04/13/2019 15:22:14</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Data.DataAccess.dll.config">
       <publishTime>03/16/2019 18:06:33</publishTime>
     </File>
     <File Include="bin/App.Data.DataAccess.pdb">
-      <publishTime>04/13/2019 15:22:14</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Data.Repository.dll">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Data.Repository.dll.config">
       <publishTime>03/16/2019 18:44:36</publishTime>
     </File>
     <File Include="bin/App.Data.Repository.Interface.dll">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Data.Repository.Interface.pdb">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Data.Repository.pdb">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Domain.dll">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Domain.Interfaces.dll">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Domain.Interfaces.pdb">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Domain.pdb">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Entities.Base.dll">
-      <publishTime>04/13/2019 15:22:14</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Entities.Base.pdb">
-      <publishTime>04/13/2019 15:22:14</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Queries.dll">
+      <publishTime>05/11/2019 18:09:27</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Queries.pdb">
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Service.WCF.dll">
-      <publishTime>04/13/2019 15:22:17</publishTime>
+      <publishTime>05/11/2019 18:09:29</publishTime>
     </File>
     <File Include="bin/App.Service.WCF.pdb">
-      <publishTime>04/13/2019 15:22:17</publishTime>
+      <publishTime>05/11/2019 18:09:29</publishTime>
     </File>
     <File Include="bin/App.Services.WCFLib.dll">
-      <publishTime>04/13/2019 15:22:16</publishTime>
+      <publishTime>05/11/2019 18:09:28</publishTime>
     </File>
     <File Include="bin/App.Services.WCFLib.dll.config">
       <publishTime>03/23/2019 20:39:35</publishTime>
     </File>
     <File Include="bin/App.Services.WCFLib.Interfaces.dll">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Services.WCFLib.Interfaces.pdb">
-      <publishTime>04/13/2019 15:22:15</publishTime>
+      <publishTime>05/11/2019 18:09:27</publishTime>
     </File>
     <File Include="bin/App.Services.WCFLib.pdb">
-      <publishTime>04/13/2019 15:22:16</publishTime>
+      <publishTime>05/11/2019 18:09:28</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/07/2018 11:03:48</publishTime>
@@ -82,7 +88,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>03/30/2019 17:53:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/13/2019 15:22:17</publishTime>
+      <publishTime>05/11/2019 18:09:29</publishTime>
     </File>
   </ItemGroup>
 </Project>

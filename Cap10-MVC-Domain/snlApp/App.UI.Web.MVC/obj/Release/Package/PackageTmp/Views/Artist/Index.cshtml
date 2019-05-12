@@ -1,0 +1,44 @@
+﻿@model IEnumerable<App.Entities.Base.Artist>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <form class="form-inline" method="post">
+            <div class="form-group">
+                <label for="artistaNombre">Artista:</label>
+                <input type="text" class="form-control" 
+                       id="artistaNombre" 
+                       name="artistaNombre"
+                       placeholder="Buscar por nombre de artista"
+                       value="@ViewBag.artistaFiltrado"
+                       >
+            </div>
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </form>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ArtistId</td>
+                        <td>@item.Name</td>
+                        <td></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

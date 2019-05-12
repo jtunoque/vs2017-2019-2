@@ -4,9 +4,16 @@
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Base" />
+      <xsd:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Queries" />
+      <xsd:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Base" />
     </xsd:schema>
   </wsdl:types>
+  <wsdl:message name="IMantenimientosService_TrackBuscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:TrackBuscar" />
+  </wsdl:message>
+  <wsdl:message name="IMantenimientosService_TrackBuscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TrackBuscarResponse" />
+  </wsdl:message>
   <wsdl:message name="IMantenimientosService_GetArtistAll_InputMessage">
     <wsdl:part name="parameters" element="tns:GetArtistAll" />
   </wsdl:message>
@@ -32,6 +39,10 @@
     <wsdl:part name="parameters" element="tns:DeleteArtistResponse" />
   </wsdl:message>
   <wsdl:portType name="IMantenimientosService">
+    <wsdl:operation name="TrackBuscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMantenimientosService/TrackBuscar" message="tns:IMantenimientosService_TrackBuscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMantenimientosService/TrackBuscarResponse" message="tns:IMantenimientosService_TrackBuscar_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="GetArtistAll">
       <wsdl:input wsaw:Action="http://tempuri.org/IMantenimientosService/GetArtistAll" message="tns:IMantenimientosService_GetArtistAll_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IMantenimientosService/GetArtistAllResponse" message="tns:IMantenimientosService_GetArtistAll_OutputMessage" />
@@ -51,6 +62,15 @@
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IMantenimientosService" type="tns:IMantenimientosService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TrackBuscar">
+      <soap:operation soapAction="http://tempuri.org/IMantenimientosService/TrackBuscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetArtistAll">
       <soap:operation soapAction="http://tempuri.org/IMantenimientosService/GetArtistAll" style="document" />
       <wsdl:input>

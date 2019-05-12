@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Base" />
+  <xs:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Queries" />
+  <xs:import schemaLocation="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/App.Entities.Base" />
+  <xs:element name="TrackBuscar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="trackName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="genero" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TrackBuscarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/App.Entities.Queries" minOccurs="0" name="TrackBuscarResult" nillable="true" type="q1:ArrayOfConsultaTracks" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="GetArtistAll">
     <xs:complexType>
       <xs:sequence>
@@ -11,7 +27,7 @@
   <xs:element name="GetArtistAllResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="GetArtistAllResult" nillable="true" type="q1:ArrayOfArtist" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="GetArtistAllResult" nillable="true" type="q2:ArrayOfArtist" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -25,14 +41,14 @@
   <xs:element name="GetArtistResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="GetArtistResult" nillable="true" type="q2:Artist" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="GetArtistResult" nillable="true" type="q3:Artist" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="SaveArtist">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="entity" nillable="true" type="q3:Artist" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/App.Entities.Base" minOccurs="0" name="entity" nillable="true" type="q4:Artist" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

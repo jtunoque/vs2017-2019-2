@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppUnitOfWork.cs" />
+    <Compile Include="TrackRepository.cs" />
     <Compile Include="CustomerRepository.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="ArtistRepository.cs" />
@@ -66,6 +67,10 @@
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
       <Project>{5743d4e8-93d4-4183-bbce-ad1cd60d0ffa}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{9a6e6c8c-c2cb-48b1-ac45-df05ac5cd9e6}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

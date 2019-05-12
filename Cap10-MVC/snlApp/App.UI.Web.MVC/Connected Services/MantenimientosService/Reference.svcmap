@@ -18,6 +18,7 @@
     <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
     <ReferencedAssemblies>
       <ReferencedAssembly AssemblyName="App.Entities.Base" />
+      <ReferencedAssembly AssemblyName="App.Entities.Queries" />
     </ReferencedAssemblies>
     <ReferencedDataContractTypes />
     <ServiceContractMappings />
@@ -26,10 +27,11 @@
     <MetadataSource Address="http://localhost:8085/wcfservices/MantenimientosService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MantenimientosService.xsd" MetadataType="Schema" ID="b2bf496b-649f-48d0-9b6f-e42fb985731a" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd1" />
-    <MetadataFile FileName="MantenimentosService.wsdl" MetadataType="Wsdl" ID="4f102cdc-bd95-412e-b6ab-45e0a68e5dc4" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?wsdl" />
-    <MetadataFile FileName="MantenimientosService.disco" MetadataType="Disco" ID="219fb97a-380a-4b21-8ccb-32ed248553d7" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?disco" />
     <MetadataFile FileName="MantenimientosService1.xsd" MetadataType="Schema" ID="c60dc530-25fa-4990-bc9a-492cd63ca8b4" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MantenimientosService.xsd" MetadataType="Schema" ID="b2bf496b-649f-48d0-9b6f-e42fb985731a" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MantenimientosService3.xsd" MetadataType="Schema" ID="25b19bcf-6e87-4bd0-b634-9b19d9a78d28" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MantenimientosService.disco" MetadataType="Disco" ID="219fb97a-380a-4b21-8ccb-32ed248553d7" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?disco" />
+    <MetadataFile FileName="MantenimentosService.wsdl" MetadataType="Wsdl" ID="4f102cdc-bd95-412e-b6ab-45e0a68e5dc4" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?wsdl" />
     <MetadataFile FileName="MantenimientosService2.xsd" MetadataType="Schema" ID="0c5643d1-63c3-4203-9f8c-d53fecbddf76" SourceId="1" SourceUrl="http://localhost:8085/wcfservices/MantenimientosService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>

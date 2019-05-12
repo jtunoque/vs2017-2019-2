@@ -15,6 +15,12 @@ namespace App.UI.Web.MVC.MantenimientosService {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MantenimientosService.IMantenimientosService")]
     public interface IMantenimientosService {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientosService/TrackBuscar", ReplyAction="http://tempuri.org/IMantenimientosService/TrackBuscarResponse")]
+        System.Collections.Generic.List<App.Entities.Queries.ConsultaTracks> TrackBuscar(string trackName, int genero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientosService/TrackBuscar", ReplyAction="http://tempuri.org/IMantenimientosService/TrackBuscarResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<App.Entities.Queries.ConsultaTracks>> TrackBuscarAsync(string trackName, int genero);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMantenimientosService/GetArtistAll", ReplyAction="http://tempuri.org/IMantenimientosService/GetArtistAllResponse")]
         System.Collections.Generic.List<App.Entities.Base.Artist> GetArtistAll(string nombre);
         
@@ -65,6 +71,14 @@ namespace App.UI.Web.MVC.MantenimientosService {
         
         public MantenimientosServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
+        }
+        
+        public System.Collections.Generic.List<App.Entities.Queries.ConsultaTracks> TrackBuscar(string trackName, int genero) {
+            return base.Channel.TrackBuscar(trackName, genero);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<App.Entities.Queries.ConsultaTracks>> TrackBuscarAsync(string trackName, int genero) {
+            return base.Channel.TrackBuscarAsync(trackName, genero);
         }
         
         public System.Collections.Generic.List<App.Entities.Base.Artist> GetArtistAll(string nombre) {

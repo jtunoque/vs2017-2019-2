@@ -87,3 +87,5 @@ E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.dll
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.pdb
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\bin\App.Entities.Base.dll
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\bin\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\bin\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.UI.Web.MVC\bin\App.Entities.Queries.pdb

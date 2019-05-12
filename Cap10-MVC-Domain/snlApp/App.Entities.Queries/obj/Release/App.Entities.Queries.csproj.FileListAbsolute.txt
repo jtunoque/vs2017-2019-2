@@ -1,0 +1,5 @@
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\bin\Release\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\bin\Release\App.Entities.Queries.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Release\App.Entities.Queries.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Release\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Release\App.Entities.Queries.pdb

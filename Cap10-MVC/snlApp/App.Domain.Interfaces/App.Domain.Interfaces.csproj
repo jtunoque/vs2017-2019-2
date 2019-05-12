@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITrackDomain.cs" />
     <Compile Include="IArtistDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,6 +49,10 @@
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
       <Project>{5743D4E8-93D4-4183-BBCE-AD1CD60D0FFA}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{9A6E6C8C-C2CB-48B1-AC45-DF05AC5CD9E6}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

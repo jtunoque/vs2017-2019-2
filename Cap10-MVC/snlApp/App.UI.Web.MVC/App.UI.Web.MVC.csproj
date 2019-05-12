@@ -137,6 +137,7 @@
     </Compile>
     <Compile Include="Controllers\ArtistController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TrackController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,6 +147,9 @@
     <None Include="Connected Services\MantenimientosService\MantenimientosService.disco" />
     <None Include="Connected Services\MantenimientosService\configuration91.svcinfo" />
     <None Include="Connected Services\MantenimientosService\configuration.svcinfo" />
+    <None Include="Connected Services\MantenimientosService\MantenimientosService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\MantenimientosService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -201,6 +205,7 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Properties\DataSources\App.Entities.Queries.ConsultaTracks.datasource" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -250,6 +255,8 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Artist\Buscar.cshtml" />
     <Content Include="Views\Artist\ObtenerArtistas.cshtml" />
+    <Content Include="Views\Track\Buscar.cshtml" />
+    <Content Include="Views\Track\ObtenerTrack.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -267,6 +274,10 @@
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
       <Project>{5743d4e8-93d4-4183-bbce-ad1cd60d0ffa}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{9a6e6c8c-c2cb-48b1-ac45-df05ac5cd9e6}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

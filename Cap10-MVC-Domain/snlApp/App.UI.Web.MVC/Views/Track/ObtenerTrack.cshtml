@@ -1,0 +1,44 @@
+﻿@model IEnumerable<App.Entities.Queries.ConsultaTracks>
+
+
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nombre Track</th>
+            <th>Tile</th>
+            <th>Nombre MediaType</th>
+            <th>Nombre Genero</th>
+            <th>Compositor</th>
+            <th>Milisegundos</th>
+            <th>Bytes</th>
+            <th>Nombre Artista</th>
+            <th>Precio</th>
+            <th>Fecha Consulta</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)//recorre todos los elementos q esta en model (tipo de datos)
+        {
+        <tr>
+            <th>@item.TrackId</th>
+            <th>@item.TrackName</th>
+            <th>@item.AlbumTitle</th>
+            <th>@item.MediaTypeName</th>
+            <th>@item.GenreName</th>
+            <th>@item.Composer</th>
+            <th>@item.Milliseconds</th>
+            <th>@item.Bytes</th>
+            <th>@item.ArtistName</th>
+            <th>@item.UnitPrice</th>
+            <th>@item.FechaConsulta</th>
+            <th></th>
+        </tr>
+        }
+    </tbody>
+
+
+</table>
+

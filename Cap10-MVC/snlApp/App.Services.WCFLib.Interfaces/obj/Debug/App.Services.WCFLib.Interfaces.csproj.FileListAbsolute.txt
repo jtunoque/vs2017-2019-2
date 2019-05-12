@@ -7,3 +7,14 @@ E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Ser
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.csproj.CopyComplete
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.dll
 E:\VS2017_JTG\Labs\Cap07\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Services.WCFLib.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Services.WCFLib.Interfaces.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\bin\Debug\App.Entities.Queries.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.csproj.CopyComplete
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Services.WCFLib.Interfaces\obj\Debug\App.Services.WCFLib.Interfaces.pdb
