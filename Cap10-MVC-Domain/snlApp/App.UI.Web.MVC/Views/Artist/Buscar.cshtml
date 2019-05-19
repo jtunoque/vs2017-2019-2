@@ -3,6 +3,9 @@
     ViewBag.Title = "Gestionar Información del Artista";
 }
 
+<a href="@Url.Action("Create")" class="btn btn-primary">Nuevo</a>
+<br />
+<br />
 <div class="panel panel-default">
     <div class="panel-body">
         @using (Ajax.BeginForm("ObtenerArtistas",

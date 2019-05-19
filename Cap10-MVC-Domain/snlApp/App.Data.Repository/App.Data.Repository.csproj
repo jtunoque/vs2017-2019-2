@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppUnitOfWork.cs" />
+    <Compile Include="UsuarioRepository.cs" />
     <Compile Include="GenreRepository.cs" />
     <Compile Include="TrackRepository.cs" />
     <Compile Include="CustomerRepository.cs" />

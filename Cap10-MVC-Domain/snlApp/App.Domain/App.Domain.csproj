@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerDomain.cs" />
     <Compile Include="GenreDomain.cs" />
+    <Compile Include="UsuarioDomain.cs" />
     <Compile Include="TrackDomain.cs" />
     <Compile Include="ArtistDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

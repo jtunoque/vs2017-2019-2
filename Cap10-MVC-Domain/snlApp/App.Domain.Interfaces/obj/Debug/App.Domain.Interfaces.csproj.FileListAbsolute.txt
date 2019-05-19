@@ -18,3 +18,14 @@ E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.I
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CopyComplete
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.dll
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Domain.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Domain.Interfaces.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Entities.Base.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Entities.Base.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\bin\Debug\App.Entities.Queries.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CopyComplete
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.pdb

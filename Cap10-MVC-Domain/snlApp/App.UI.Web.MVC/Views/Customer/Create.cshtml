@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Nuevo Cliente";
+}
+
+
+@using (Html.BeginForm("Save","Customer"))
+{ 
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Nombres</label>
+            <div class="col-md-10">
+                <input name="FirstName" id="FirstName" class="form-control" required/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Apellidos</label>
+            <div class="col-md-10">
+                <input name="LastName" id="LastName" class="form-control" required/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Compañia</label>
+            <div class="col-md-10">
+                <input name="Company" id="Company" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Direccion</label>
+            <div class="col-md-10">
+                <input name="Address" id="Address" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Ciudad</label>
+            <div class="col-md-10">
+                <input name="City" id="City" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Estado</label>
+            <div class="col-md-10">
+                <input name="State" id="State" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Pais</label>
+            <div class="col-md-10">
+                <input name="Country" id="Country" class="form-control"  />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Codigo Postal</label>
+            <div class="col-md-10">
+                <input name="PostalCode" id="PostalCode" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Telefono</label>
+            <div class="col-md-10">
+                <input name="Phone" id="Phone" class="form-control"  />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Fax</label>
+            <div class="col-md-10">
+                <input name="Fax" id="Fax" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Name" class="control-label col-md-2">Correo</label>
+            <div class="col-md-10">
+                <input type="email" name="Email" id="Email" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Mostrar Listado", "Index")
+</div>

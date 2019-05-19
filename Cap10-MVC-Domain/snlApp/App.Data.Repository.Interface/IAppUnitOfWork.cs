@@ -13,5 +13,6 @@ namespace App.Data.Repository.Interface
         ICustomerRepository CustomerRepository { get; set; }
         ITrackRepository TrackRepository { get; set; }
         IGenreRepository GenreRepository { get; set; }
+        IUsuarioRepository UsuarioRepository { get; set; }
     }
 }

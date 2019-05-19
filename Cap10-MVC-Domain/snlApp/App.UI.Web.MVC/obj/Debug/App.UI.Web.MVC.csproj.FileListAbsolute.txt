@@ -196,3 +196,12 @@ E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\obj\Debug\App.UI.Web.M
 E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.pdb
 E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\EntityFramework.SqlServer.dll
 E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\EntityFramework.SqlServer.xml
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Security.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Owin.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.xml
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Security.xml
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.UI.Web.MVC\bin\Microsoft.Owin.Security.Cookies.xml

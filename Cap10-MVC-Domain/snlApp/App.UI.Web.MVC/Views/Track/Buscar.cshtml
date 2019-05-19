@@ -30,12 +30,17 @@
 
             <div class="form-group">
                 <label for="genero">Genero:</label>
-                <input type="text" class="form-control"
-                       id="genero"
-                       name="genero"
-                       placeholder="Buscar por genero"
-                       autocomplete="off">
+                <select id="genero"
+                        name="genero" class="form-control">
+                    <option value="0">Todos</option>
 
+                    @foreach (var item in ViewBag.Generos)
+                    {
+                        <option value="@item.GenreId">@item.Name</option>
+                    }
+
+
+                </select>                
             </div>
 
             <button type="submit" class="btn btn-danger">Buscar</button>

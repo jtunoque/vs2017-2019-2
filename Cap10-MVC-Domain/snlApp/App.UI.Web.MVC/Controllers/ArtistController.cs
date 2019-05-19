@@ -1,5 +1,6 @@
 ﻿using App.Domain;
 using App.Domain.Interfaces;
+using App.Entities.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Web.Mvc;
 
 namespace App.UI.Web.MVC.Controllers
 {
+    [Authorize]
     public class ArtistController : Controller
     {
         private readonly IArtistDomain artistDomain;
@@ -40,6 +42,33 @@ namespace App.UI.Web.MVC.Controllers
             //System.Threading.Thread.Sleep(2000);
 
             return PartialView(listado);
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Save(Artist model)
+        {
+            var result = artistDomain.SaveArtist(model);
+
+            if(result)
+            {
+                return RedirectToAction("Buscar");
+            }
+            else
+            {
+                return View("Error");
+            }            
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var artista = artistDomain.GetArtistById(id);
+
+            return View(artista);
         }
     }
 }

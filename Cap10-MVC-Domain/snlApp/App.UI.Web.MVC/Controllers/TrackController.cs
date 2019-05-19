@@ -8,22 +8,26 @@ using System.Web.Mvc;
 
 namespace App.UI.Web.MVC.Controllers
 {
+    [Authorize]
     public class TrackController : Controller
     {
         private readonly ITrackDomain trackDomain;
+        private readonly IGenreDomain genreDomain;
 
         public TrackController()
         {
             trackDomain = new TrackDomain();
+            genreDomain = new GenreDomain();
         }
 
         public ActionResult Buscar()
         {
+            ViewBag.Generos = genreDomain.GetAll("");
             return View();
         }
         public ActionResult ObtenerTrack(string trackName, int genero)
         {
-            trackName = String.IsNullOrWhiteSpace(trackName) ? "%" : trackName.Trim();
+            trackName = String.IsNullOrWhiteSpace(trackName) ? "%" : $"%{trackName.Trim()}%";
 
 
             var listado = trackDomain.Buscar(trackName, genero);

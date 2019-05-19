@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Gestionar Información del Cliente";
+}
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Nuevo</a>
+<br />
+<br />
+<div class="panel panel-default">
+    <div class="panel-body">
+        @using (Ajax.BeginForm("ObtenerClientes",
+            new AjaxOptions
+            {
+                HttpMethod="POST",
+                UpdateTargetId="resultadoId",
+                InsertionMode=InsertionMode.Replace,
+                LoadingElementId="imgLoader"
+            }        
+        ))
+        {
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="artistaNombre">Cliente:</label>
+                <input type="text" class="form-control"
+                       id="artistaNombre"
+                       name="artistaNombre"
+                       placeholder="Buscar por nombre del cliente"
+                       >
+            </div>
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </div>
+
+        }
+        <br />
+        <div id="resultadoId">
+
+        </div>
+    </div>
+</div>
+

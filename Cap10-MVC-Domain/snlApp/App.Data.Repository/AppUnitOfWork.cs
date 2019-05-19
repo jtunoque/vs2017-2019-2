@@ -17,6 +17,7 @@ namespace App.Data.Repository
         public ICustomerRepository CustomerRepository { get; set; }
         public ITrackRepository TrackRepository { get; set; }
         public IGenreRepository GenreRepository { get; set; }
+        public IUsuarioRepository UsuarioRepository { get; set; }
 
         public AppUnitOfWork()
         {
@@ -26,6 +27,7 @@ namespace App.Data.Repository
             this.CustomerRepository = new CustomerRepository(_context);
             this.TrackRepository = new TrackRepository(_context);
             this.GenreRepository = new GenreRepository(_context);
+            this.UsuarioRepository = new UsuarioRepository(_context);
         }
 
 

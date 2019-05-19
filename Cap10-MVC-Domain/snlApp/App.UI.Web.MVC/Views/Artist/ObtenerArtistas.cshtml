@@ -14,7 +14,10 @@
             <tr>
                 <td>@item.ArtistId</td>
                 <td>@item.Name</td>
-                <td></td>
+                <td>
+                    <a href="@Url.Action("Edit",new {id=item.ArtistId })">Editar</a>
+
+                </td>
             </tr>
         }
     </tbody>

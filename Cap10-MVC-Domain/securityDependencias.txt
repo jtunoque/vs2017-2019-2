@@ -1,0 +1,6 @@
+Owin (X)
+Microsoft.Owin (X)
+Microsoft.Owin.Host.SystemWeb (x)
+Microsoft.Owin.Security (x)
+Microsoft.Owin.Security.Cookies (x)
+Microsoft.Web.Infraestructure (x)

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<App.Entities.Base.Customer>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Email</th>
+            <th>Pais</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.CustomerId</td>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.Email</td>
+            <td>@item.Country</td>
+            <td>
+                <a href="@Url.Action("Edit",new {id=item.CustomerId })">Editar</a>
+
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
