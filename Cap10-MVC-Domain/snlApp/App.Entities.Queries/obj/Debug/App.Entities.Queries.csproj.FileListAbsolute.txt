@@ -4,3 +4,9 @@ E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Debug\App.Entities.
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
 E:\VS2017_JTG\Labs\Cap10-MVC\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
+E:\VS2017_JTG\Labs\Cap10-MVC-Domain\snlApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb

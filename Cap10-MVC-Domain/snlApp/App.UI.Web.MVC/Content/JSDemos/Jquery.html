@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>    
+
+</head>
+<body>
+    <form>
+        <select id="lenguajes">
+            <option value="VB">Visual Basic</option>
+            <option value="CS">C#</option>
+            <option value="Java">Java</option>
+        </select>
+        <br />
+        <input id="email" type="email" placeholder="Ingresar su email" />
+        <br />
+        <input id="fechaNac" type="date" placeholder="Ingresar su fecha nacimiento" />
+        <br />
+        <input id="nombres" type="text" placeholder="Ingresar sus nombres" />
+        <br />
+        <input id="apellidos" type="text" placeholder="Ingresar sus apellidos" />
+        <br />
+        <span>Género</span>
+        <div>
+            <label>Masculino</label>
+            <input id="optM" name="genero" value="M" type="radio" />
+        </div>
+        <div>
+            <label>Femenino</label>
+            <input id="optF" name="genero" value="F" type="radio" />
+        </div>
+
+        <br />
+        <span>Disponibilidad</span>
+        <div>
+            <label>Lunes</label>
+            <input type="checkbox" name="disponible" value="L" />
+        </div>
+        <div>
+            <label>Martes</label>
+            <input type="checkbox" name="disponible" value="M" />
+        </div>
+        <div>
+            <label>Miércoles</label>
+            <input type="checkbox" name="disponible" value="K" />
+        </div>
+        <div>
+            <label>Jueves</label>
+            <input type="checkbox" name="disponible" value="J" />
+        </div>
+        <div>
+            <label>Viernes</label>
+            <input type="checkbox" name="disponible" value="V" />
+        </div>
+
+        <br />
+        <button type="button" class="btnGuardar">Guardar</button>
+    </form>
+
+    <script type="text/javascript">
+        $(init());
+
+        function init() {
+            $(".btnGuardar").on("click", guardar);
+        }
+
+        function guardar() {
+            var candidato = {};
+            candidato.lenguaje = $("#lenguajes").val();
+            candidato.email = $("#email").val();
+            candidato.fechaNacimiento = $("#fechaNac").val();
+            candidato.nombres = $("#nombres").val();
+            candidato.apellidos = $("#apellidos").val();
+            candidato.genero = $("input:radio[name=genero]:checked").val();
+
+            candidato.disponibilidad = [];
+            var elementChecked = $("input:checkbox[name=disponible]:checked");
+            for (var i = 0; i < elementChecked.length; i++) {
+                candidato.disponibilidad.push(
+                    $(elementChecked[i]).val()
+                );
+            }
+
+
+            alert(JSON.stringify(candidato));
+            
+        }
+
+    </script>
+
+</body>
+</html>

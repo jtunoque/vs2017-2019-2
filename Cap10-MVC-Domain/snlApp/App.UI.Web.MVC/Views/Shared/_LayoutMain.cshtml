@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using App.UI.Web.MVC.Helpers;
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -28,9 +30,9 @@
             <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;">Last access : 30 May 2014 &nbsp;<a href="#" class="btn btn-danger square-btn-adjust">Logout</a></div>
+font-size: 16px;">@SecurityHelpers.GetUserFullName() &nbsp;<a href="@Url.Action("SignOut","Security")" class="btn btn-danger square-btn-adjust">Salir</a></div>
         </nav>
-        <!-- /. NAV TOP  -->
+        <!-- /. NAV TOP  -->|
         <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
@@ -38,19 +40,28 @@ font-size: 16px;">Last access : 30 May 2014 &nbsp;<a href="#" class="btn btn-dan
                         <img src="~/Content/theme/img/find_user.png" class="user-image img-responsive" />
                     </li>
 
-
-                    <li>
-                        <a href="@Url.Action("Buscar","Artist")"><i class="fa fa-dashboard fa-3x"></i> Artistas</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Buscar","Track")"><i class="fa fa-desktop fa-3x"></i> Tracks</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Index","Customer")"><i class="fa fa-desktop fa-3x"></i> Clientes</a>
-                    </li>
+                    @if (SecurityHelpers.IsAdmin())
+                    {
+                        <li>
+                            <a href="@Url.Action("Buscar", "Artist")"><i class="fa fa-dashboard fa-3x"></i> Artistas</a>
+                        </li>
+                    }
                     
+                    @if (SecurityHelpers.IsAdmin() || SecurityHelpers.IsSupervisor())
+                    {
+                        <li>
+                            <a href="@Url.Action("Buscar", "Track")"><i class="fa fa-desktop fa-3x"></i> Tracks</a>
+                        </li>
+                    }
 
-                </ul>
+                    @if (SecurityHelpers.IsAdmin() || SecurityHelpers.IsSupervisor() || SecurityHelpers.IsOperator())
+                    {
+                        <li>
+                            <a href="@Url.Action("Index", "Customer")"><i class="fa fa-desktop fa-3x"></i> Clientes</a>
+                        </li>
+                    }
+
+                    </ul>
 
             </div>
 

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <button type="button" class="numero" value="1">1</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="2">2</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="3">3</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="numero" value="4">4</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="5">5</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="6">6</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="numero" value="7">7</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="8">8</button>
+                </td>
+                <td>
+                    <button type="button" class="numero" value="9">9</button>
+                </td>
+            </tr>
+        </table>
+        <input id="clave" type="password" readonly />
+        <br />
+        <button type="reset">Limpiar</button>
+    </form>
+    <script type="text/javascript">
+        $(init());
+
+        function init() {
+            $(".numero").on("click", establecerClave);
+        }
+
+        function establecerClave() {
+            var digito = $(this).val();
+            var clave = $("#clave").val();
+            $("#clave").val(clave + digito);
+
+            console.log($("#clave").val());
+        }
+    </script>
+
+</body>
+</html>

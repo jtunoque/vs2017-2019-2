@@ -5,7 +5,19 @@
 
 @using (Html.BeginForm())
 {
+
+   
+
 <div class="form-horizontal login">
+
+    @if (ViewBag.LoginFailed!=null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.LoginFailed
+        </div>
+        <br />
+    }
+
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
         <div class="col-sm-10">

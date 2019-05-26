@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <button type="button" onclick="MostrarTotal()"> 
+            Obtener total de elementos
+        </button>
+
+
+    </div>
+
+
+    <script type="text/javascript">
+
+        debugger;
+
+        //Comentario en javascript 
+        var numero = 1;
+        var cadena = "Es una cadena";
+        var boolean = true; //false
+        var fecha = new Date();
+        var carrito = []; //Arreglo
+
+        var producto = {}; //Es un objeto
+        producto.id = 1;
+        producto.nombre = "Teclado LG";
+        producto.stock = 100;
+        producto.precio = 50.2;
+        producto.cantidad = 5;
+        producto.CalcularSubTotal = function()
+        {
+            var subTotal = this.precio * this.cantidad;
+            return subTotal;
+        };
+
+        alert(producto.CalcularSubTotal());
+
+        carrito.push(producto);
+        carrito.push(
+            {
+                id : 1,
+                nombre : "Teclado Toshiba"
+            }
+        );
+
+        //for
+        for (var i = 0; i < carrito.length; i++) {
+
+            //for depurar código se usa el console
+            console.log(carrito[i]);
+        }
+
+
+        function MostrarTotal() {
+            alert("Total de elementos:" + carrito.length);
+        }
+
+
+
+    </script>
+</body>
+</html>

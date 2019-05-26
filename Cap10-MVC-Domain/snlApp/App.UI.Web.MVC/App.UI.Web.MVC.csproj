@@ -160,10 +160,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Helpers.cs" />
+    <Compile Include="Helpers\SecurityHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\JSDemos\ControlAcceso.html" />
+    <Content Include="Content\JSDemos\Javascript.html" />
+    <Content Include="Content\JSDemos\Jquery.html" />
     <Content Include="Content\theme\css\bootstrap.css" />
     <Content Include="Content\theme\css\custom.css" />
     <Content Include="Content\theme\css\font-awesome.css" />
