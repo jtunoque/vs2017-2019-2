@@ -3,6 +3,8 @@
     ViewBag.Title = "Gestionar Informacion de Tracks";
 }
 
+
+
 <div class="panel panel-default">
     <div class="panel-body">
 
@@ -17,34 +19,36 @@
 
             ))
         {
-        <div class="form-inline">
-            <div class="form-group">
-                <label for="trackName">Nombre Track:</label>
-                <input type="text" class="form-control"
-                       id="trackName"
-                       name="trackName"
-                       placeholder="Buscar por Track"
-                       autocomplete="off">
+              <div class="form-inline">
+                  <div class="form-group">
+                      <label for="trackName">Nombre Track:</label>
+                      <input type="text" class="form-control"
+                             id="trackName"
+                             name="trackName"
+                             placeholder="Buscar por Track"
+                             autocomplete="off">
 
-            </div>
+                  </div>
 
-            <div class="form-group">
-                <label for="genero">Genero:</label>
-                <select id="genero"
-                        name="genero" class="form-control">
-                    <option value="0">Todos</option>
+                  <div class="form-group">
+                      <label for="genero">Genero:</label>
+                      <select id="genero"
+                              name="genero" class="form-control">
+                          <option value="0">Todos</option>
 
-                    @foreach (var item in ViewBag.Generos)
-                    {
-                        <option value="@item.GenreId">@item.Name</option>
-                    }
+                          @foreach (var item in ViewBag.Generos)
+                          {
+                              <option value="@item.GenreId">@item.Name</option>
+                          }
 
 
-                </select>                
-            </div>
+                      </select>
+                  </div>
 
-            <button type="submit" class="btn btn-danger">Buscar</button>
-        </div>
+                  <button type="submit" class="btn btn-danger">Buscar</button>
+                  <a href="@Url.Action("Nuevo")"
+                     class="btn btn-success">Nuevo</a>
+              </div>
         }
 
 

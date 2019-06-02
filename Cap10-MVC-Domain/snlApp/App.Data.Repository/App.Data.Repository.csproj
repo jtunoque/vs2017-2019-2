@@ -48,7 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumRepository.cs" />
     <Compile Include="AppUnitOfWork.cs" />
+    <Compile Include="MediosRepository.cs" />
+    <Compile Include="PlaylistTrackRepository.cs" />
     <Compile Include="UsuarioRepository.cs" />
     <Compile Include="GenreRepository.cs" />
     <Compile Include="TrackRepository.cs" />
@@ -78,6 +81,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PlaylistRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

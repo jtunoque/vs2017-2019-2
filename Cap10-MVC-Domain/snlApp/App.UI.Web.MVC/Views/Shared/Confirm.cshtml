@@ -1,0 +1,13 @@
+﻿@model App.UI.Web.MVC.Models.ConfirmModel
+
+@{
+    ViewBag.Title = "Confirmación de transacción";
+}
+
+<div class="alert alert-success" role="alert">
+    @Model.Message
+</div>
+@if(!String.IsNullOrWhiteSpace(Model.RedirectUrl))
+{
+    <a href="@Model.RedirectUrl">Regresar</a>
+}

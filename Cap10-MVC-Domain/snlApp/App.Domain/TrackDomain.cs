@@ -20,5 +20,51 @@ namespace App.Domain
 
             }
         }
+
+        public bool Guardar(Track entity)
+        {
+            try
+            {
+                using (var uw = new AppUnitOfWork())
+                {
+                    if (entity.TrackId == 0)
+                    {
+                        var playIds = entity.Playlist.Select(item => item.PlaylistId).ToList();
+
+                        entity.Playlist = null;
+                        uw.TrackRepository.Add(entity);
+
+                       
+                        uw.Complete();
+
+                        foreach (var id in playIds)
+                        {
+                            uw.PlaylistTrackRepository.Add(
+                                new PlaylistTrack()
+                                {
+                                    PlaylistId = id,
+                                    TrackId = entity.TrackId
+                                }
+                            );
+                        }
+
+                        uw.Complete();
+
+                    }
+                    else
+                    {
+
+                    }
+
+                    uw.Complete();
+                }
+
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

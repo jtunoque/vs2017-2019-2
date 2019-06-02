@@ -14,5 +14,9 @@ namespace App.Data.Repository.Interface
         ITrackRepository TrackRepository { get; set; }
         IGenreRepository GenreRepository { get; set; }
         IUsuarioRepository UsuarioRepository { get; set; }
+        IAlbumRepository AlbumRepository { get; set; }
+        IMediosRepository MediosRepository { get; set; }
+        IPlaylistRepository PlaylistRepository { get; set; }
+        IPlaylistTrackRepository PlaylistTrackRepository { get; set; }
     }
 }

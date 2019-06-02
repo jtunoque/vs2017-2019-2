@@ -13,5 +13,7 @@ namespace App.Domain.Interfaces
         IEnumerable<ConsultaTracks> Buscar
                 (string trackName, int genero);
 
+        bool Guardar(Track entity);
+
     }
 }

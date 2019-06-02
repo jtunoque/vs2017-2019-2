@@ -2,16 +2,14 @@
 @using App.UI.Web.MVC.Helpers;
 
 
+
+<br />
     <table class="table table-striped table-bordered table-hover" >
         <thead>
             <tr>
                 <th>Nombre Track</th>
-                <th>Tile</th>
-                <th>Nombre MediaType</th>
                 <th>Nombre Genero</th>
                 <th>Compositor</th>
-                <th>Milisegundos</th>
-                <th>Bytes</th>
                 <th>Nombre Artista</th>
                 <th>Precio</th>
                 <th>Fecha Consulta</th>
@@ -24,12 +22,8 @@
             {
                 <tr>
                     <td>@item.TrackName</td>
-                    <td>@item.AlbumTitle</td>
-                    <td>@item.MediaTypeName</td>
                     <td>@item.GenreName</td>
                     <td>@item.Composer</td>
-                    <td>@item.Milliseconds</td>
-                    <td>@item.Bytes</td>
                     <td>@item.ArtistName</td>
                     <td>@item.UnitPrice</td>
                     <td>@Helpers.FormatFecha(@item.FechaConsulta)</td>

@@ -36,6 +36,7 @@ namespace App.Data.DataAccess
         public virtual DbSet<Playlist> Playlist { get; set; }
         public virtual DbSet<Track> Track { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<PlaylistTrack> PlaylistTrack { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -77,10 +78,10 @@ namespace App.Data.DataAccess
                 .WithRequired(e => e.MediaType)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Playlist>()
-                .HasMany(e => e.Track)
-                .WithMany(e => e.Playlist)
-                .Map(m => m.ToTable("PlaylistTrack").MapLeftKey("PlaylistId").MapRightKey("TrackId"));
+            //modelBuilder.Entity<Playlist>()
+            //    .HasMany(e => e.Track)
+            //    .WithMany(e => e.Playlist)
+            //    .Map(m => m.ToTable("PlaylistTrack").MapLeftKey("PlaylistId").MapRightKey("TrackId"));
 
             modelBuilder.Entity<Track>()
                 .Property(e => e.UnitPrice)

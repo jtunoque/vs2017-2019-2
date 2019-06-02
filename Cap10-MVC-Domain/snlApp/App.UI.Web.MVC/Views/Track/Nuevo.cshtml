@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Nuevo Track";
+}
+
+<form class="form-horizontal"       
+      action="@Url.Action("Guardar","Track")"
+      method="post"
+      >
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Nombre:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" name="nombre">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Album:</label>
+        <div class="col-sm-4">
+            <select name="album" class="form-control">
+
+                @foreach (var item in ViewBag.Albums)
+                {
+                <option value="@item.AlbumId">@item.Title</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Media:</label>
+        <div class="col-sm-4">
+            <select name="Medio" class="form-control">
+                @foreach (var item in ViewBag.MediaTypes)
+                {
+                    <option value="@item.MediaTypeId">@item.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Género:</label>
+        <div class="col-sm-4" style="column-count:2">
+            @foreach (var item in ViewBag.Generos)
+            {
+                <div><input type="radio" id="genero{@item.GenreId}" name="generos"
+                            value="@item.GenreId" />
+                    <label for="genero{@item.GenreId}">@item.Name</label></div>
+            }
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Compositor:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" name="compositor">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Tiempo:</label>
+        <div class="col-sm-4">
+            <input type="number" class="form-control" name="tiempo">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Peso:</label>
+        <div class="col-sm-4">
+            <input type="number" class="form-control" name="peso">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Precio:</label>
+        <div class="col-sm-4">
+            <input type="number" step="any" class="form-control" name="precio">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Play List:</label>
+        <div class="col-sm-4" style="column-count:2">
+            @foreach (var item in ViewBag.PlayList)
+            {
+                <div>
+                    <input type="checkbox" id="playlist{@item.PlaylistId}" name="playList"
+                           value="@item.PlaylistId" />
+                    <label for="playlist{@item.PlaylistId}">@item.Name</label>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">Guardar</button>
+        </div>
+    </div>
+</form>

@@ -9,5 +9,7 @@ namespace App.Data.Repository.Interface
 {
     public interface ICustomerRepository:IGenericRepository<Customer>
     {
+
+
     }
 }

@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumDomain.cs" />
     <Compile Include="CustomerDomain.cs" />
     <Compile Include="GenreDomain.cs" />
+    <Compile Include="MediosDomain.cs" />
     <Compile Include="UsuarioDomain.cs" />
     <Compile Include="TrackDomain.cs" />
     <Compile Include="ArtistDomain.cs" />
@@ -69,6 +71,9 @@
       <Project>{9A6E6C8C-C2CB-48B1-AC45-DF05AC5CD9E6}</Project>
       <Name>App.Entities.Queries</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PlaylistDomain.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
